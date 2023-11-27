@@ -33,12 +33,8 @@ min_timeout_listen_on_voice = 5
 max_timeout_factor_listen_on_voice = 5
 # when 1 no openai api call instead a fix text is returned
 test_mode = 0
-# key word to bring running assistant into test mode
-test_mode_keyword = "testmodus"
-# the fixed message for test mode
-test_message = "Das ist nur eine Testausgabe"
 
-# ----------- Language config -----------
+# ----------- Language and keyword config -----------
 # output speech - language
 engine.setProperty("voice", "german")
 # input speech - language
@@ -57,6 +53,10 @@ confirm_long_input_text = "OK ich höre dir länger zu"
 program_exit_keyword = "beende dich"
 # Message when long question mode activated
 confirm_program_exit_text = "Lebe lang und in Frieden"
+# key word to bring running assistant into test mode
+test_mode_keyword = "testmodus"
+# the fixed message for test mode
+test_message = "Das ist nur eine Testausgabe"
 
 
 # Function to convert text to speech
