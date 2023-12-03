@@ -23,4 +23,5 @@ Multiple configurations are possible at the beginning of the script:
   - keywords and confirm messages
   - timeouts
   - used openai model
-    
+
+More informations can be found here: https://www.wdev.ch/how-to-create-your-own-voice-assistant-with-python-and-chatgpt-api/
